@@ -1,0 +1,17 @@
+.cards {
+    height: 200px;
+    min-width: 200px;
+    background-color: skyblue;
+    border: 2px solid red;
+    opacity: 0;
+    margin-right: 10px; /* Add margin for spacing between cards */
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+  }
+  .show{
+    opacity: 1;
+  }
